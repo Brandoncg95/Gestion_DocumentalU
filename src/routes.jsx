@@ -5,8 +5,9 @@ import {
   BellIcon,
   ArrowRightOnRectangleIcon,
   UserPlusIcon,
+  FolderIcon
 } from "@heroicons/react/24/solid";
-import { Home, Profile, Tables, Notifications } from "@/pages/dashboard";
+import { Home, Profile, Tables, Notifications, GestionDocumentos} from "@/pages/dashboard";
 import { SignIn, SignUp } from "@/pages/auth";
 
 const icon = {
@@ -44,6 +45,13 @@ export const routes = [
         name: "Notificaciones",
         path: "/notifications",
         element: <Notifications />,
+        showInSidenav: true,
+      },
+      {
+        icon: <FolderIcon {...icon} />,
+        name: "Gestion Documental",
+        path: "/gestion_documentos",
+        element: <GestionDocumentos/>,
         showInSidenav: true,
       },
     ],

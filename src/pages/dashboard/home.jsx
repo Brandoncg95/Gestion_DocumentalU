@@ -49,7 +49,7 @@ export function Home() {
         </Link>
 
         {/* Enlace a la gestión de documentos */}
-        {/* Asegúrate de agregar el enlace cuando la página esté lista */}
+        <Link to="/gestion_documentos" className="text-center">
         <div className="text-center">
           <div className="p-4 border rounded-lg shadow hover:bg-gray-100">
             <FolderIcon className="w-6 h-6 mx-auto text-blue-500" />
@@ -58,6 +58,7 @@ export function Home() {
             </Typography>
           </div>
         </div>
+        </Link>
       </div>
 
       {/* Sección de novedades de documentos */}
