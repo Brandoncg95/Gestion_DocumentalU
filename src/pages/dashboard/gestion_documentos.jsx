@@ -14,7 +14,7 @@ import {
 } from "@heroicons/react/24/outline";
 
 export function GestionDocumentos() {
-  // Aquí podrías agregar la lógica para manejar las acciones de cada botón
+  // Aquí es donde puedo  agregar la lógica para manejar las acciones de cada botón
   const handleUpload = () => {
     console.log("Subir documento");
   };
